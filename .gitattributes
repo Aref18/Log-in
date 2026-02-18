@@ -1,10 +1,9 @@
-# Mark platform generated code as vendored
-windows/** linguist-vendored
-linux/** linguist-vendored
-macos/** linguist-vendored
-ios/** linguist-vendored
-android/** linguist-vendored
-build/** linguist-vendored
+windows/** linguist-generated=true
+linux/** linguist-generated=true
+macos/** linguist-generated=true
+ios/** linguist-generated=true
+android/** linguist-generated=true
+build/** linguist-generated=true
 
 # Force Dart as main language
 *.dart linguist-detectable=true
