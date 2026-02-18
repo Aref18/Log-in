@@ -1,7 +1,14 @@
-# Ignore platform-specific generated code
+# Mark platform generated code as vendored
 windows/** linguist-vendored
 linux/** linguist-vendored
 macos/** linguist-vendored
-android/** linguist-vendored
 ios/** linguist-vendored
+android/** linguist-vendored
 build/** linguist-vendored
+
+# Force Dart as main language
+*.dart linguist-detectable=true
+*.cpp linguist-detectable=false
+*.cc linguist-detectable=false
+*.c linguist-detectable=false
+*.h linguist-detectable=false
